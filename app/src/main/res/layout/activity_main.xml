@@ -1,0 +1,106 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/primary"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/f_logo_re"
+        />
+
+    <TextView
+        android:text="@string/login_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="copyright (C) JNETS Co.,ltd. All Right Reserved."
+        android:textColor="#FFFFFF"
+        />
+
+    <!--<Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/thumbnail_height"
+        android:text="@string/Camera"
+        android:background="@drawable/button_state"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/thumbnail_height"
+        android:layout_marginLeft="100dp"
+        android:text="@string/Indoor"
+        android:background="@drawable/button_state"/>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/thumbnail_height"
+        android:layout_marginLeft="200dp"
+        android:text="@string/Parking"
+        android:background="@drawable/button_state"/>-->
+
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="fitXY"
+        android:background="#E2EAEF"
+        android:src="@drawable/icon_016250_256" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="150dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="fitXY"
+        android:background="#D4C8DF"
+        android:src="@drawable/icon_02" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="150dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:scaleType="fitXY"
+        android:background="#F49102"
+        android:src="@drawable/unnamed" />
+
+
+</RelativeLayout>

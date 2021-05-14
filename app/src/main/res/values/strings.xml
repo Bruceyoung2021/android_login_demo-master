@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jnets</string>
+
+    <string name="login_success">ログイン成功</string>
+    <string name="action_settings">アカウント設定</string>
+    <string name="action_logout">ログアウト</string>
+    <string name="Camera">カメラ</string>
+    <string name="Indoor">入退館</string>
+    <string name="Parking">駐車場</string>
+
+</resources>
